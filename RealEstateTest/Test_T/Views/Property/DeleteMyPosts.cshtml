@@ -1,0 +1,97 @@
+﻿@using RealEstateData
+@model RealEstate.Core.RealEstateProperty
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<!-- view propery section starts -->
+<section class="view-property">
+    <h1 class="heading">property details</h1>
+    <div class="details">
+        <div class="swiper images-container">
+            <div class="swiper-wrapper">
+                <img src="~/uploads/@Model.ImageUrl1" alt="" class="swiper-slide">
+                <!-- if empty image 02 -->
+                <img src="~/uploads/@Model.ImageUrl2" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl3" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl4" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl5" alt="" class="swiper-slide">
+       
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        @{
+            if (Model.OffertypeLiist == "rent" && Model.PropertytypeList=="houses")
+            {
+                <h3 class="name">بيت للإيجار</h3>
+
+            }
+            if (Model.OffertypeLiist == "rent" && Model.PropertytypeList == "apartmants")
+            {
+                <h3 class="name">شقة للإيجار</h3>
+
+            }
+            if (Model.OffertypeLiist == "rent" && Model.PropertytypeList == "villas")
+            {
+                <h3 class="name">فلة للإيجار</h3>
+
+            }
+            if (Model.OffertypeLiist == "sale" && Model.PropertytypeList == "houses")
+            {
+                <h3 class="name">بيت للبيع</h3>
+
+            }
+            if (Model.OffertypeLiist == "sale" && Model.PropertytypeList == "apartmants")
+            {
+                <h3 class="name">شقة للبيع</h3>
+
+            }
+            if (Model.OffertypeLiist == "sale" && Model.PropertytypeList == "villas")
+            {
+                <h3 class="name">فلة للبيع</h3>
+
+            }
+          
+        }
+        <p class="location"><i class="fas fa-map-marker-alt"></i><span>@Model.propertyaddress</span></p>
+        <div class="info">
+            <p><i class="fas fa-dollar-sign">@Model.propertyprice</i><span><!---price---></span></p>
+            <p><i class="fas fa-user"></i>@Model.propertyname<span><!--name--></span></p>
+            <p><i class="fas fa-phone"></i><a href="tel:1234567890"><!--number--></a></p>
+            <p><i class="fas fa-building">@Model.PropertytypeList</i><span><!--type--></span></p>
+            <p><i class="fas fa-house">@Model.OffertypeLiist</i><span><!--offer--></span></p>
+            <p><i class="fas fa-calendar">@Model.AddedDate</i><span><!--date--></span></p>
+        </div>
+        <h3 class="title">details</h3>
+        <div class="flex">
+            <div class="box">
+                <p><i>deposit amount : @Model.depositamount </i><span><span class="fas fa-dollar-sign" style="margin-right: .5rem;"></span><!--deposite--></span></p>
+                <p><i>status : @Model.PropertystatusList</i><span><!--status--></span></p>
+                <p><i>bedroom : @Model.bedroomsList</i><span><!--bedroom--></span></p>
+                <p><i>bathroom : @Model.bathroomsList</i><span><!--bathroom--></span></p>
+                <p><i>balcony :@Model.balconysList</i><span><!--balcony--></span></p>
+            </div>
+            <div class="box">
+                <p><i>carpet area : @Model.carpetarea</i><span><!--carpet-->sqft</span></p>
+                <p><i>age : @Model.propertyage</i><span><!--age--> years</span></p>
+                <p><i>total floors : @Model.totalfloors</i><span><!--total_floors--></span></p>
+                <p><i>room floor : @Model.floorroom</i><span><!--room_floor--></span></p>
+                <p><i>furnished : @Model.FurnishedstatusList</i><span><!--furnished--></span></p>
+                <p><i>loan :</i><span><!--loan--></span></p>
+            </div>
+        </div>
+        <h3 class="title">amenities</h3>
+     
+
+        <h3 class="title">descriprion</h3>
+        <p class="description">@Model.propertydescription<!--description--></p>
+    </div>
+    <form asp-action="DeleteMyPosts">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="DeleteMyPosts" class="btn" />
+    </form>
+</section>
+
+ 

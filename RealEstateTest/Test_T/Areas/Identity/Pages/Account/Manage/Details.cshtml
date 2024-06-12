@@ -1,0 +1,30 @@
+﻿@page
+@model DetailsModel
+
+
+
+
+<section class="acc">
+    <div class="dtl">
+        <form action="" method="post">
+            <h3>Account Details</h3>
+            <div class="box">
+                <p>Name :</p>
+                <p class="p">@Model.User.UserName</p>
+            </div>
+            <div class="box">
+                <p>Email :</p>
+                <p class="p">@Model.User.Email</p>
+            </div>
+            <div class="box">
+                <p>Phone Number :</p>
+                <p class="p">@Model.User.PhoneNumber</p>
+            </div>
+            <div>
+                <a asp-area="Identity" asp-page="/Account/Manage/Dashboard" class="btn">Back to Account Management</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+

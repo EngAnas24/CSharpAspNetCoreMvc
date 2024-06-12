@@ -1,0 +1,146 @@
+/* _content/RealEstateWibsite/Pages/Shared/_IdentityLayout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-y5g4feto0z] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-y5g4feto0z] {
+  color: #0077cc;
+}
+
+.btn-primary[b-y5g4feto0z] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-y5g4feto0z], .nav-pills .show > .nav-link[b-y5g4feto0z] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-y5g4feto0z] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-y5g4feto0z] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-y5g4feto0z] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-y5g4feto0z] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-y5g4feto0z] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/RealEstateWibsite/Pages/Shared/_Layout.cshtml.rz.scp.css */
+
+
+a.navbar-brand[b-n36t3o3nf9] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-n36t3o3nf9] {
+  color: #0077cc;
+}
+
+.btn-primary[b-n36t3o3nf9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-n36t3o3nf9], .nav-pills .show > .nav-link[b-n36t3o3nf9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-n36t3o3nf9] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-n36t3o3nf9] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-n36t3o3nf9] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-n36t3o3nf9] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-n36t3o3nf9] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/RealEstateWibsite/Pages/Shared/_LayoutManager.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-y9plwdtrqi] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-y9plwdtrqi] {
+  color: #0077cc;
+}
+
+.btn-primary[b-y9plwdtrqi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-y9plwdtrqi], .nav-pills .show > .nav-link[b-y9plwdtrqi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-y9plwdtrqi] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-y9plwdtrqi] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-y9plwdtrqi] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-y9plwdtrqi] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-y9plwdtrqi] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

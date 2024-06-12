@@ -1,0 +1,41 @@
+﻿@page
+@model UpdateAccountModel
+
+<section class="form-container">
+    <form method="post">
+        <h3 style="color:whitesmoke">Update Your Account</h3>
+
+        <!-- Display Status Message -->
+        @if (!string.IsNullOrEmpty(Model.StatusMessage))
+        {
+            <div class="status-message">
+                <h3 style="color:whitesmoke">  @Model.StatusMessage</h3>
+            </div>
+        }
+
+        <!-- Bind form fields to InputModel properties -->
+        <input type="text" asp-for="Input.Username"  placeholder="Username" class="box">
+        <input type="email" asp-for="Input.Email" placeholder="Email" class="box">
+        <input type="tel" asp-for="Input.PhoneNumber" placeholder="Phone Number" class="box">
+        <input type="password" asp-for="Input.OldPassword"  placeholder="Enter Your Old Password" class="box">
+        <input type="password" asp-for="Input.NewPassword"  placeholder="Enter Your New Password" class="box">
+        <input type="password" asp-for="Input.ConfirmPassword"  placeholder="Confirm Your New Password" class="box">
+
+        <!-- Display validation errors -->
+        @if (Model.ModelState.IsValid)
+        {
+            <div class="validation-error">
+                @foreach (var modelState in Model.ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                }
+            </div>
+        }
+
+        <!-- Submit Button -->
+        <input type="submit" value="Update Now" class="btn">
+    </form>
+</section>

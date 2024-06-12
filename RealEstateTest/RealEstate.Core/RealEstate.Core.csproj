@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<!-- PropertyGroup contains global settings for the project -->
+	<PropertyGroup>
+		<!-- The project is targeting .NET 6.0 framework -->
+		<TargetFramework>net6.0</TargetFramework>
+		<!-- Enables implicit using directives for commonly used namespaces -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- Enables nullable reference type annotations and warnings -->
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<!-- ItemGroup contains dependencies and other items for the project -->
+	<ItemGroup>
+		<!-- Adds a package reference to Microsoft.AspNetCore.Http.Features version 5.0.17 -->
+		<PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+		<!-- Adds a package reference to Microsoft.AspNetCore.Identity.UI version 6.0.28 -->
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.28" />
+	</ItemGroup>
+</Project>

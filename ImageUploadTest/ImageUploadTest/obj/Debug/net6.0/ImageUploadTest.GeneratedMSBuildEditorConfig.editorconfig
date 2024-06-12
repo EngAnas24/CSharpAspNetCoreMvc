@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ImageUploadTest
+build_property.RootNamespace = ImageUploadTest
+build_property.ProjectDir = D:\c#\Asp.net_Web\ImageUploadTest\ImageUploadTest\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\c#\Asp.net_Web\ImageUploadTest\ImageUploadTest
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Laptop/AddLaptop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwdG9wXEFkZExhcHRvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Laptop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwdG9wXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Laptop/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwdG9wXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Laptop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFwdG9wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Preview/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJldmlld1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Upload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/Upload/UploadImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkXFVwbG9hZEltYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/Asp.net_Web/ImageUploadTest/ImageUploadTest/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-haojq8x85t

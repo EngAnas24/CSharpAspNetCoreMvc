@@ -1,0 +1,61 @@
+﻿@page
+@model RegisterModel
+
+
+<div class="wrapper">
+    <div class="form-box signup">
+        <h2>Sign up</h2>
+        @try
+        {
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="input-box">
+                    <input asp-for="Input.UserName"   aria-required="true" />
+                    <label asp-for="Input.UserName"></label>
+                    <span class="ico"> <i class="fa-solid fa-user"></i></span>
+                </div>
+                <div class="input-box">
+                    <input asp-for="Input.Email"  aria-required="true" />
+                    <label asp-for="Input.Email"></label>
+                    <span class="ico"><i class="fa-solid fa-envelope"></i></span>
+                </div>
+                <div class="input-box">
+                    <input asp-for="Input.Password"  aria-required="true" />
+                    <label asp-for="Input.Password"></label>
+                    <span class="ico"><i class="fa-solid fa-lock"></i></span>
+                </div>
+
+                <button id="registerSubmit" type="submit" class="btnn">Sign up</button>
+            </form>
+        }
+        catch (Exception e)
+        {
+           
+        }
+        <div class="signin-signup">
+            <p>
+                Already have an account? <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">
+
+                    Sign in
+                </a>
+            </p>
+        </div>
+        <div class="media-options">
+            <a href="#">
+                <i class="fa-brands fa-google"></i>
+                <span>Sign ip with Google</span>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Sign in with Facebook</span>
+            </a>
+        </div>
+    </div>
+  
+    </div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

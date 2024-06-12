@@ -1,0 +1,49 @@
+﻿@model Deneme1.Models.User
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<h2>User Details</h2>
+
+<div>
+    <p><strong>Name:</strong> @Html.DisplayFor(model => model.Name)</p>
+    <p><strong>Age:</strong> @Html.DisplayFor(model => model.Age)</p>
+    <p><strong>Occupation:</strong> @Html.DisplayFor(model => model.Occupation)</p>
+    <p><strong>Status:</strong> @Html.DisplayFor(model => model.IsActive)</p>
+</div>
+
+@if (Model.IsActive)
+{
+    <button id="toggleStatusBtn" class="btn btn-warning">Deactivate User</button>
+}
+else
+{
+    <button id="toggleStatusBtn" class="btn btn-success">Activate User</button>
+}
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#toggleStatusBtn').click(function () {
+                var userId = @Model.Id;
+                var newStatus = !@Model.IsActive;
+                var actionUrl = '/User/ToggleStatus/' + userId + '?isActive=' + newStatus;
+
+                $.ajax({
+                    url: actionUrl,
+                    type: 'POST',
+                    success: function (response) {
+                        alert(response.message);
+                        window.location.reload(); // Refresh the page after status update
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error updating status: ' + xhr.responseText);
+                    }
+                });
+            });
+        });
+
+    </script>
+}

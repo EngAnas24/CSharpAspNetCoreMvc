@@ -1,0 +1,125 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService authoriz
+@using System.Threading
+@{
+    AuthorizationResult authorizationResult = await authoriz.AuthorizeAsync(User, "Admin");
+}
+
+@model IEnumerable<RealEstate.Core.RealEstateProperty>
+
+<style>
+    .table-container {
+        margin: 0 auto;
+        width: 90%; /* تعيين عرض الجدول بنسبة 90% من عرض الشاشة */
+    }
+
+    table {
+        margin: 0 auto;
+        width: 100%; /* جعل عرض الجدول يمتلئ بالكامل */
+        direction: ltr; /* توجيه النص إلى اليمين */
+    }
+
+    .pagination-container {
+        text-align: center; /* محاذاة عناصر التحكم بالصفحات في وسط الشاشة */
+    }
+</style>
+
+<div class="table-container">
+    <table>
+        <tbody>
+            @for (var i = 0; i < Model.Count(); i += 3)
+            {
+                <tr>
+                    @foreach (var property in Model.Skip(i).Take(3))
+                    {
+                        <td style="padding: 10px; text-align: left;">
+                            <!-- Added text-align: left -->
+                            <section class="my-listings">
+                                <div class="box-container">
+                                    <form action="" method="post" class="box">
+                                        <input type="hidden" name="property_id" value="@property.Id" />
+                                        <div class="thumb">
+                                            <p>
+                                                <i class="far fa-image"></i> <span>@property.ImagesCounts</span>
+                                            </p>
+                                            <img src="~/uploads/@property.ImageUrl1" alt="" />
+                                        </div>
+                                        <div class="price">
+                                            <i class="fa-solid fa-dollar-sign"></i>
+                                            <span>@property.propertyprice</span>
+                                        </div>
+                                        <h3 class="name">
+                                            @Html.DisplayFor(modelItem => property.totalfloors)
+                                        </h3>
+                                        <p class="address">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span>@Html.DisplayFor(modelItem => property.propertyaddress)</span>
+                                        </p>
+                                        <div class="flex-btn">
+                                            @if (authorizationResult.Succeeded)
+                                            {
+                                                <a asp-action="Edit" asp-route-id="@property.Id" class="btn">Update</a>
+                                                <a asp-action="Delete" asp-route-id="@property.Id" class="btn">Delete</a>
+                                            }
+                                        </div>
+                                        <a asp-action="Details" asp-route-id="@property.Id" class="btn">View Property</a>
+                                    </form>
+                                </div>
+                            </section>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@{
+    // Define the number of items per page
+    int itemsPerPage = 4 * 3; // 4 rows * 3 columns = 12 items per page
+
+    // Calculate the current page number
+    int currentPage = (int)Math.Ceiling((double)Model.Max(p => p.Id) / itemsPerPage);
+
+    // Get the last post ID for the next page link if there are items
+    int? lastPostId = Model.Any() ? Model.Max(p => p.Id) : (int?)null;
+
+    // Calculate the total number of pages
+    int totalPages = (int)Math.Ceiling((double)Model.Count() / itemsPerPage);
+
+    // Determine if it's the first page
+    bool isFirstPage = currentPage == 1;
+
+    // Determine if it's the last page
+    bool isLastPage = Model.Count() < itemsPerPage;
+}
+
+
+<div class="pagination-container p-3 mt-3 mt-md-5">
+    <div class="pagination">
+        <!-- Previous button -->
+        @if (!isFirstPage)
+        {
+            int previousPage = currentPage - 1; // Calculate previous page
+            <a asp-action="GerneralIndex" asp-route-id="@previousPage" class="nav-link text-white">
+                <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">Previous</button>
+            </a>
+        }
+        <!-- Page buttons -->
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            <a asp-action="GerneralIndex" asp-route-id="@i" class="nav-link text-white">
+                <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">@i</button>
+            </a>
+        }
+
+        <!-- Next button -->
+        @if (!isLastPage && lastPostId.HasValue)
+        {
+            int nextPage = lastPostId.Value + 1; // Calculate next page
+            <a asp-action="GerneralIndex" asp-route-id="@nextPage" class="nav-link text-white">
+                <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">Next</button>
+            </a>
+        }
+    </div>
+</div>

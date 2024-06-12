@@ -1,0 +1,18 @@
+﻿@page
+@model MyFirstProject.Pages.AboutModel
+@{
+    var greeting = "Welcome to our page😃";
+}
+<h>@greeting</h>
+@{
+var txt = "";
+if(DateTime.Now.Hour > 12)
+{txt = "Good Evening";}
+else
+{txt = "Good Morning";}
+}
+<html>
+<body>
+<p>The message is @txt</p>
+</body>
+</html>

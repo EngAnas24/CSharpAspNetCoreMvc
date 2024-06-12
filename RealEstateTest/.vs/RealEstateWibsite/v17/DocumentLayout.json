@@ -1,0 +1,926 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c#\\Asp.net_Web\\Test_T\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\shared\\_identitylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\shared\\_identitylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\propertycontroller\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\propertycontroller\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\manage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\manage\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\manage\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\manage\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\buyingindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\buyingindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\manage\\updateaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\manage\\updateaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\manage\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\manage\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\pages\\searchresult.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\pages\\searchresult.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\deletemyposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\deletemyposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\myposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\rentingindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\rentingindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\savedpropentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\savedpropentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\savedproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\savedproperty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|e:\\c#\\asp.net_web\\test_t\\realestate.core\\savedprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\savedprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|e:\\c#\\asp.net_web\\test_t\\realestate.core\\realestatepropertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\realestatepropertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|e:\\c#\\asp.net_web\\test_t\\realestate.core\\realestateproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\realestateproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\contacts\\contactentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\contacts\\contactentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\propertytypentitye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\propertytypentitye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\propertystatusentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\propertystatusentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\propertyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\propertyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\offertypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\offertypeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\furnishedstatusentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\furnishedstatusentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\bedroomsentiity .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\bedroomsentiity .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\bathroomsentity .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\bathroomsentity .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\balconysentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\balconysentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|e:\\c#\\asp.net_web\\test_t\\realestate.core\\balconys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\balconys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426215353_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426201420_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185655_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185546_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425212422_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425211407_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210917_Testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210156_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425205749_TestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|e:\\c#\\asp.net_web\\test_t\\realestate.core\\bathrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16F6537F-9F78-454A-A39C-D29B4D4A1DC3}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\bathrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|e:\\c#\\asp.net_web\\test_t\\test_t\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23CB8753-37F1-4ABC-B928-2A1D48EA27F9}|Test_T\\RealEstateWibsite.csproj|solutionrelative:test_t\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|e:\\c#\\asp.net_web\\test_t\\realestatedata\\migrations\\20240428150433_testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6CA49DA-E4E2-4CB3-A9B6-CCADCB8BD33E}|RealEstateData\\RealEstate.Data.csproj|solutionrelative:realestatedata\\migrations\\20240428150433_testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Test_T\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_IdentityLayout.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_IdentityLayout.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\Shared\\_IdentityLayout.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_IdentityLayout.cshtml",
+              "RelativeToolTip": "Test_T\\Pages\\Shared\\_IdentityLayout.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAxwIsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Contact\\Create.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Contact\\Create.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Contact\\Create.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Contact\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Test_T\\Pages\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAACMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Test_T\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Dashboard.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Dashboard.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Dashboard.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\PropertyController\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Test_T\\PropertyController\\PropertyController.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\PropertyController\\PropertyController.cs",
+              "RelativeToolTip": "Test_T\\PropertyController\\PropertyController.cs",
+              "ViewState": "AQIAAM0BAAAAAAAAAAAowNsBAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BuyingIndex.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\BuyingIndex.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\BuyingIndex.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\BuyingIndex.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\BuyingIndex.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateAccount.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\UpdateAccount.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\UpdateAccount.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\UpdateAccount.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\UpdateAccount.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SearchResult.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\SearchResult.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\SearchResult.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\SearchResult.cshtml",
+              "RelativeToolTip": "Test_T\\Pages\\SearchResult.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Create.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\Create.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Create.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\Create.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml.cs",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Manage\\Details.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DeleteMyPosts.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\DeleteMyPosts.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\DeleteMyPosts.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\DeleteMyPosts.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\DeleteMyPosts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Test_T\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAC0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Program.cs",
+              "RelativeDocumentMoniker": "Test_T\\Program.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Program.cs",
+              "RelativeToolTip": "Test_T\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyPosts.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\MyPosts.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\MyPosts.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\MyPosts.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\MyPosts.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwEMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SearchResult.cshtml.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\SearchResult.cshtml.cs",
+              "RelativeDocumentMoniker": "Test_T\\Pages\\SearchResult.cshtml.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Pages\\SearchResult.cshtml.cs",
+              "RelativeToolTip": "Test_T\\Pages\\SearchResult.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Details.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\Details.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Details.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\Details.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAADUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RentingIndex.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\RentingIndex.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\RentingIndex.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\RentingIndex.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\RentingIndex.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAGwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SavedPropEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\SavedPropEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\SavedPropEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\SavedPropEntity.cs",
+              "RelativeToolTip": "RealEstateData\\SavedPropEntity.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAgwF0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SavedProperty.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\SavedProperty.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\SavedProperty.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\SavedProperty.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\SavedProperty.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAACUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RealEstatePropertyViewModel.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\RealEstatePropertyViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.Core\\RealEstatePropertyViewModel.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\RealEstatePropertyViewModel.cs",
+              "RelativeToolTip": "RealEstate.Core\\RealEstatePropertyViewModel.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAA2wD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SavedProp.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\SavedProp.cs",
+              "RelativeDocumentMoniker": "RealEstate.Core\\SavedProp.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\SavedProp.cs",
+              "RelativeToolTip": "RealEstate.Core\\SavedProp.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RealEstateProperty.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\RealEstateProperty.cs",
+              "RelativeDocumentMoniker": "RealEstate.Core\\RealEstateProperty.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\RealEstateProperty.cs",
+              "RelativeToolTip": "RealEstate.Core\\RealEstateProperty.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAQwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240428150433_TestTable.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240428150433_TestTable.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\Migrations\\20240428150433_TestTable.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240428150433_TestTable.cs",
+              "RelativeToolTip": "RealEstateData\\Migrations\\20240428150433_TestTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContactEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Contacts\\ContactEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\Contacts\\ContactEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Contacts\\ContactEntity.cs",
+              "RelativeToolTip": "RealEstateData\\Contacts\\ContactEntity.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PropertytypEntitye.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertytypEntitye.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\PropertytypEntitye.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertytypEntitye.cs",
+              "RelativeToolTip": "RealEstateData\\PropertytypEntitye.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Test_T\\Views\\Property\\Edit.cshtml",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Views\\Property\\Edit.cshtml",
+              "RelativeToolTip": "Test_T\\Views\\Property\\Edit.cshtml",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAxwIAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:12:27.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PropertystatusEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertystatusEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\PropertystatusEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertystatusEntity.cs",
+              "RelativeToolTip": "RealEstateData\\PropertystatusEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PropertyEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertyEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\PropertyEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\PropertyEntity.cs",
+              "RelativeToolTip": "RealEstateData\\PropertyEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OfferTypeEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\OfferTypeEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\OfferTypeEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\OfferTypeEntity.cs",
+              "RelativeToolTip": "RealEstateData\\OfferTypeEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FurnishedstatusEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\FurnishedstatusEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\FurnishedstatusEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\FurnishedstatusEntity.cs",
+              "RelativeToolTip": "RealEstateData\\FurnishedstatusEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BedroomsEntiity .cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BedroomsEntiity .cs",
+              "RelativeDocumentMoniker": "RealEstateData\\BedroomsEntiity .cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BedroomsEntiity .cs",
+              "RelativeToolTip": "RealEstateData\\BedroomsEntiity .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BathroomsEntity .cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BathroomsEntity .cs",
+              "RelativeDocumentMoniker": "RealEstateData\\BathroomsEntity .cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BathroomsEntity .cs",
+              "RelativeToolTip": "RealEstateData\\BathroomsEntity .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BalconysEntity.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BalconysEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\BalconysEntity.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\BalconysEntity.cs",
+              "RelativeToolTip": "RealEstateData\\BalconysEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Balconys.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\Balconys.cs",
+              "RelativeDocumentMoniker": "RealEstate.Core\\Balconys.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\Balconys.cs",
+              "RelativeToolTip": "RealEstate.Core\\Balconys.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DBData.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\DBData.cs",
+              "RelativeDocumentMoniker": "RealEstateData\\DBData.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\DBData.cs",
+              "RelativeToolTip": "RealEstateData\\DBData.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAIA1wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Test_T\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Test_T\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Test_T\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Test_T\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240426215353_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426215353_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426215353_TestTable.cs",
+              "ViewState": "AQIAACQBAAAAAAAAAAAqwP0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:53:53.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240426201420_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426201420_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426201420_TestTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:14:20.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240426185655_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185655_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185655_TestTable.cs",
+              "ViewState": "AQIAAFEBAAAAAAAAAAAAAPYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T18:56:55.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240426185546_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185546_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240426185546_TestTable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T18:55:46.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Test_T\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240425212422_Test.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425212422_Test.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425212422_Test.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:24:23.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20240425211407_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425211407_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425211407_TestTable.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:14:08.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240425210917_Testtable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210917_Testtable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210917_Testtable.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAowJwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:09:17.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240425210156_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210156_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425210156_TestTable.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:01:56.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240425205749_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425205749_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.net_Web\\Test_T\\RealEstateData\\Migrations\\20240425205749_TestTable.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:57:49.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Bathrooms.cs",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\Bathrooms.cs",
+              "RelativeDocumentMoniker": "RealEstate.Core\\Bathrooms.cs",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\RealEstate.Core\\Bathrooms.cs",
+              "RelativeToolTip": "RealEstate.Core\\Bathrooms.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:12:27.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Test_T\\ScaffoldingReadMe.txt",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Test_T\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-19T16:12:27.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\appsettings.json",
+              "RelativeDocumentMoniker": "Test_T\\appsettings.json",
+              "ToolTip": "E:\\c#\\Asp.net_Web\\Test_T\\Test_T\\appsettings.json",
+              "RelativeToolTip": "Test_T\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T16:12:27.572Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

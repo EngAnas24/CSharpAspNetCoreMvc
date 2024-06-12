@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Asp.netMvc\\MyFirstProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\authotest\\authotest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|solutionrelative:authotest\\authotest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\myfirstproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\myfirstproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject.data\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|solutionrelative:myfirstproject.data\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B4A5EB-F469-4B98-AC9E-05C47D433FDE}|MyFirstProject.Core\\MyFirstProject.Core.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B4A5EB-F469-4B98-AC9E-05C47D433FDE}|MyFirstProject.Core\\MyFirstProject.Core.csproj|solutionrelative:myfirstproject.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\authotest\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|solutionrelative:authotest\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\authotest\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|solutionrelative:authotest\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|solutionrelative:myfirstproject.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\authotest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|solutionrelative:authotest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\authotest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3F8AA0-F005-483B-BA60-8BB63E2516EC}|AuthoTest\\AuthoTest.csproj|solutionrelative:authotest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject.data\\migrations\\20230705122529_adddatbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|solutionrelative:myfirstproject.data\\migrations\\20230705122529_adddatbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject.data\\migrations\\20230923003835_adddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32AD9096-04B2-4491-AD69-CA25343186AF}|MyFirstProject.Data\\MyFirstProject.Data.csproj|solutionrelative:myfirstproject.data\\migrations\\20230923003835_adddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|d:\\c#\\asp.netmvc\\myfirstproject\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEFCEC2-4A4E-4C9C-9F9C-89CBF90DFFA8}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthoTest",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\AuthoTest.csproj",
+              "RelativeDocumentMoniker": "AuthoTest\\AuthoTest.csproj",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\AuthoTest.csproj",
+              "RelativeToolTip": "AuthoTest\\AuthoTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-12T15:35:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T11:27:43.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyFirstProject.csproj",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+              "RelativeDocumentMoniker": "MyFirstProject\\MyFirstProject.csproj",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+              "RelativeToolTip": "MyFirstProject\\MyFirstProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T11:27:43.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "AuthoTest\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBMwLcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MyFirstProject\\appsettings.json",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\appsettings.json",
+              "RelativeToolTip": "MyFirstProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T11:27:43.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "MyFirstProject.Data\\DBContext.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\DBContext.cs",
+              "RelativeToolTip": "MyFirstProject.Data\\DBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\UserEntity.cs",
+              "RelativeDocumentMoniker": "MyFirstProject.Data\\UserEntity.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\UserEntity.cs",
+              "RelativeToolTip": "MyFirstProject.Data\\UserEntity.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwBwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MyFirstProject\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAqwDAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Core\\User.cs",
+              "RelativeDocumentMoniker": "MyFirstProject.Core\\User.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Core\\User.cs",
+              "RelativeToolTip": "MyFirstProject.Core\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:30:11.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Program.cs",
+              "RelativeDocumentMoniker": "AuthoTest\\Program.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\Program.cs",
+              "RelativeToolTip": "AuthoTest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthoTest\\appsettings.json",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\AuthoTest\\appsettings.json",
+              "RelativeToolTip": "AuthoTest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T11:27:43.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20230705122529_AddDatBase.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\Migrations\\20230705122529_AddDatBase.cs",
+              "RelativeDocumentMoniker": "MyFirstProject.Data\\Migrations\\20230705122529_AddDatBase.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\Migrations\\20230705122529_AddDatBase.cs",
+              "RelativeToolTip": "MyFirstProject.Data\\Migrations\\20230705122529_AddDatBase.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20230923003835_AddDataBase.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\Migrations\\20230923003835_AddDataBase.cs",
+              "RelativeDocumentMoniker": "MyFirstProject.Data\\Migrations\\20230923003835_AddDataBase.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject.Data\\Migrations\\20230923003835_AddDataBase.cs",
+              "RelativeToolTip": "MyFirstProject.Data\\Migrations\\20230923003835_AddDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\User\\Delete.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\User\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T11:27:43.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T11:27:43.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T11:27:43.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Program.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\MyFirstProject\\MyFirstProject\\Program.cs",
+              "RelativeToolTip": "MyFirstProject\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBMwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:27:43.468Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

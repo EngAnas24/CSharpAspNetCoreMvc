@@ -1,0 +1,154 @@
+﻿@model RealEstate.Core.RealEstateProperty
+@using RealEstateData
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService authoriz
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.RealEstateProperty> real
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.SavedProp> SavedProp
+
+@inject RealEstate.Core.SavedProp saveprop
+
+@{
+    var isUserAuthenticated = User.Identity.IsAuthenticated;
+    var currentUserId = UserManager.GetUserId(User);
+    //var hasUserSavedProperty = Model.IsSave; // Assuming Model.IsSave represents the current saved status
+}
+
+<section class="view-property">
+    <h1 class="heading">Property Details</h1>
+    <div class="details">
+        <div class="swiper images-container">
+            <div class="swiper-wrapper">
+                <img src="~/uploads/@Model.ImageUrl1" alt="" class="swiper-slide">
+                <!-- if empty image 02 -->
+                <img src="~/uploads/@Model.ImageUrl2" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl3" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl4" alt="" class="swiper-slide">
+                <img src="~/uploads/@Model.ImageUrl5" alt="" class="swiper-slide">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <h3 class="name">
+            @if (Model.OffertypeLiist == "rent")
+            {
+                @if (Model.PropertytypeList == "houses")
+                {
+                    <span>House for renting </span>
+                }
+                else if (Model.PropertytypeList == "apartmants")
+                {
+                    <span> Apartman for renting</span>
+                }
+                else if (Model.PropertytypeList == "villas")
+                {
+                    <span>Villa for renting </span>
+                }
+            }
+            else if (Model.OffertypeLiist == "sale")
+            {
+                @if (Model.PropertytypeList == "houses")
+                {
+                    <span> House for sale </span>
+                }
+                else if (Model.PropertytypeList == "apartmants")
+                {
+                    <span> Apartman for sale</span>
+                }
+                else if (Model.PropertytypeList == "villas")
+                {
+                    <span>Villa for sale </span>
+                }
+            }
+        </h3>
+
+        <p class="location"><i class="fas fa-map-marker-alt"></i><span>@Model.propertyaddress</span></p>
+
+        <div class="info">
+            <p><i class="fas fa-dollar-sign"></i>@Model.propertyprice</p>
+            <p><i class="fas fa-user"></i>@Model.propertyname</p>
+            <p><i class="fas fa-building"></i>@Model.PropertytypeList</p>
+            <p><i class="fas fa-house"></i>@Model.OffertypeLiist</p>
+            <p><i class="fas fa-calendar"></i>@Model.AddedDate.ToShortDateString()</p>
+        </div>
+
+        <div class="flex">
+            <div class="box">
+                <p><i>Deposit Amount:</i> @Model.depositamount</p>
+                <p><i>Status:</i> @Model.PropertystatusList</p>
+                <p><i>Bedroom:</i> @Model.bedroomsList</p>
+                <p><i>Bathroom:</i> @Model.bathroomsList</p>
+                <p><i>Balcony:</i> @Model.balconysList</p>
+            </div>
+            <div class="box">
+                <p><i>Carpet Area:</i> @Model.carpetarea sqft</p>
+                <p><i>Age:</i> @Model.propertyage years</p>
+                <p><i>Total Floors:</i> @Model.totalfloors</p>
+                <p><i>Room Floor:</i> @Model.floorroom</p>
+                <p><i>Furnished:</i> @Model.FurnishedstatusList</p>
+            </div>
+        </div>
+
+        <h3 class="title">Description</h3>
+        <p class="description">@Model.propertydescription</p>
+        @if (isUserAuthenticated)
+        {
+            <form action="" method="post" class="flex-btn" id="toggleForm">
+                <input type="hidden" name="property_id" value="@Model.Id">
+                @if (SavedProp.CheckIfUserHasSavedProperty(UserManager.GetUserId(User), Model.Id))
+                {
+                    <button type="button" name="save" class="save toggle-save active" data-property-id="@Model.Id" data-user-id="@UserManager.GetUserId(User)">
+                        <i class="fas fa-heart"></i><span>Saved</span>
+                    </button>
+                }
+                else
+                {
+                    <button type="button" name="save" class="save toggle-save" data-property-id="@Model.Id" data-user-id="@UserManager.GetUserId(User)">
+                        <i class="far fa-heart"></i><span>Save</span>
+                    </button>
+                }
+                <input type="submit" value="Send Enquiry" name="send" class="btn">
+            </form>
+        }
+        else
+        {
+            <p> <strong>You Need to Register to save this property</strong> </p>
+        }
+
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.toggle-save').click(function () {
+            var button = $(this);
+            var propertyId = button.data('property-id');
+            var userId = button.data('user-id');
+            var isSave = !button.hasClass('active'); // Toggle save status
+            $.ajax({
+                url: '/ToggleStatus',
+                type: 'POST',
+                data: {
+                    id: propertyId,
+                    userId: userId,
+                    isSave: isSave
+                },
+                success: function (response) {
+                    button.toggleClass('active'); // Toggle active class based on response
+                    if (isSave) {
+                        button.html('<i class="fas fa-heart"></i><span>Saved</span>'); // Change icon and text to saved
+                    } else {
+                        button.html('<i class="far fa-heart"></i><span>Save</span>'); // Change icon and text to save
+                    }
+                    var message = isSave ? "Property saved successfully" : "Property unsaved successfully";
+                    
+                },
+                error: function (xhr, status, error) {
+                }
+            });
+        });
+    });
+</script>

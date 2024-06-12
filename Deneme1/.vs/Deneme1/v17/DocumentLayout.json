@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Asp.netMvc\\Deneme1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\models\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\models\\dbdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\deneme1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\deneme1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\migrations\\dbdatamodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\migrations\\dbdatamodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\migrations\\20240413102117_testtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\migrations\\20240413102117_testtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\migrations\\20240413102117_testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\migrations\\20240413102117_testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|d:\\c#\\asp.netmvc\\deneme1\\deneme1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA2A9897-2883-4D5F-BEA9-B81D6A25F088}|Deneme1\\Deneme1.csproj|solutionrelative:deneme1\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBData.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Models\\DBData.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Models\\DBData.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Models\\DBData.cs",
+              "RelativeToolTip": "Deneme1\\Models\\DBData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Deneme1\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deneme1.csproj",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Deneme1.csproj",
+              "RelativeDocumentMoniker": "Deneme1\\Deneme1.csproj",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Deneme1.csproj",
+              "RelativeToolTip": "Deneme1\\Deneme1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-12T16:51:19.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Models\\User.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Models\\User.cs",
+              "RelativeToolTip": "Deneme1\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240413102117_TestTable.Designer.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\20240413102117_TestTable.Designer.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Migrations\\20240413102117_TestTable.Designer.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\20240413102117_TestTable.Designer.cs",
+              "RelativeToolTip": "Deneme1\\Migrations\\20240413102117_TestTable.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Deneme1\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Deneme1\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:51:19.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBDataModelSnapshot.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\DBDataModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Migrations\\DBDataModelSnapshot.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\DBDataModelSnapshot.cs",
+              "RelativeToolTip": "Deneme1\\Migrations\\DBDataModelSnapshot.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAxwAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240413102117_TestTable.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\20240413102117_TestTable.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Migrations\\20240413102117_TestTable.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Migrations\\20240413102117_TestTable.cs",
+              "RelativeToolTip": "Deneme1\\Migrations\\20240413102117_TestTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Program.cs",
+              "RelativeDocumentMoniker": "Deneme1\\Program.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Program.cs",
+              "RelativeToolTip": "Deneme1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:51:19.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "Deneme1\\Views\\User\\Details.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "Deneme1\\Views\\User\\Details.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowCgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:51:19.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Deneme1\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Deneme1\\Deneme1\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Deneme1\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T16:51:19.334Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

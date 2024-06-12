@@ -1,0 +1,100 @@
+﻿<!-- Views/User/Index.cshtml -->
+@model IEnumerable<Deneme1.Models.User>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Occupation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Occupation)
+                </td>
+                <td>
+                    @if (item.IsActive)
+                    {
+                        <span class="badge badge-success">Active</span>
+                    }
+                    else
+                    {
+                        <span class="badge badge-danger">Inactive</span>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-info" }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-success" })
+                    @if (item.IsActive)
+                    {
+                        <button class="btn btn-danger deleteBtn" data-id="@item.Id">Delete User</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary" disabled>Delete User</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.deleteBtn').click(function () {
+                var userId = $(this).data('id'); // Get user ID from data attribute
+                if (confirm('Are you sure you want to delete this user?')) {
+                    $.ajax({
+                        url: '/User/Delete/' + userId,
+                        type: 'POST',
+                        success: function (response) {
+                            alert(response.message); // Show success message
+                            window.location.reload(); // Refresh the page after deletion
+                        },
+                        error: function (xhr, status, error) {
+                            alert('Error deleting user: ' + xhr.responseText); // Show error message
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

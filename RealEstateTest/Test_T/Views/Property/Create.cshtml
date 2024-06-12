@@ -1,0 +1,140 @@
+﻿   @model RealEstate.Core.RealEstatePropertyViewModel
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.offertype> offertype
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.Balconys> Balconys
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.Bathrooms> Bathrooms
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.Bedrooms> Bedrooms
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.furnishedstatus> Furnishedstatus
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.propertystatus> propertystatus
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.propertytype> propertytype
+
+<section class="property-form">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="box">
+            <p>property name <span>*</span></p>    
+            <input asp-for="propertyname" 
+                   placeholder="enter property name" class="input" />
+        </div>
+        <div class="box">
+            <p>property price <span>*</span></p>
+            <input asp-for="propertyprice"
+                   placeholder="enter property price" class="input" />
+        </div>
+        <div class="box">
+            <p>deposit amount <span>*</span></p>
+            <input asp-for="depositamount"
+                   placeholder="enter deposite amount" class="input" />
+        </div>
+        <div class="box">
+            <p>property address <span>*</span></p>
+            <input asp-for="propertyaddress"
+                   placeholder="enter property full address" class="input" />
+        </div>
+        
+
+        <div class="box">
+            <p>offer type <span>*</span></p>
+            <select asp-for="OffertypeLiist" asp-items="new SelectList(offertype.GetData().Select(x=>x.Offertype))" class="input"></select>
+
+        </div>
+
+        <div class="box">
+            <p>property type <span>*</span></p>
+            <select asp-for="PropertytypeList" asp-items="new SelectList(propertytype.GetData().Select(x=>x.Propertytype))" class="input"></select>
+
+        </div>
+        <div class="box">
+            <p>property status <span>*</span></p>
+            <select asp-for="PropertystatusList" asp-items="new SelectList(propertystatus.GetData().Select(x=>x.Propertystatus))" class="input"></select>
+
+        </div>
+
+        <div class="box">
+            <p>furnished status <span>*</span></p>
+            <select asp-for="FurnishedstatusList" asp-items="new SelectList(Furnishedstatus.GetData().Select(x=>x.Furnishedstatus))" class="input"></select>
+
+        </div>
+
+        <div class="box">
+            <p>how many bedrooms <span>*</span></p>
+            <select asp-for="bedroomsList" asp-items="new SelectList(Bedrooms.GetData().Select(x=>x.bedrooms))" class="input"></select>
+
+        </div>
+
+        <div class="box">
+            <p>how many bathrooms <span>*</span></p>
+            <select asp-for="bathroomsList" asp-items="new SelectList(Bathrooms.GetData().Select(x=>x.bathrooms))" class="input"></select>
+
+        </div>
+
+        <div class="box">
+            <p>how many balconys <span>*</span></p>
+                <select asp-for="balconysList" asp-items="new SelectList(Balconys.GetData().Select(x=>x.balconys))" class="input"></select>
+            
+        </div>
+            
+  
+        <div class="box">
+            <p>carpet area <span>*</span></p>
+            <input asp-for="carpetarea" 
+                   placeholder="how many squarefits?" class="input" />
+        </div>
+        <div class="box">
+            <p>property age <span>*</span></p>
+            <input asp-for="propertyage"
+                   placeholder="how old is property?" class="input" />
+        </div>
+        <div class="box">
+            <p>total floors <span>*</span></p>
+            <input asp-for="totalfloors"
+                   placeholder="how floors available?" class="input" />
+        </div>
+        <div class="box">
+            <p>floor room <span>*</span></p>
+            <input asp-for="floorroom" 
+                   placeholder="property floor number" class="input" />
+        </div>
+        <div class="box">
+            <p>property description <span>*</span></p>
+            <textarea asp-for="propertydescription"
+                      class="input"
+                      cols="30"
+                      rows="10"
+                      placeholder="write about property..."></textarea>
+        </div>
+
+            <div class="box">
+            <p>image 01 <span>*</span></p>
+            <input asp-for="File1" type="file" class="input" />
+                <span asp-validation-for="File1" class="text-danger"></span>
+            </div>
+        <div class="box">
+            <p>image 02 <span>*</span></p>
+            <input asp-for="File2" type="file" class="input" />
+        </div>
+        <div class="box">
+            <p>image 03 <span>*</span></p>
+            <input asp-for="File3" type="file" class="input" />
+        </div>
+        <div class="box">
+            <p>image 04 <span>*</span></p>
+            <input asp-for="File4" type="file" class="input" />
+        </div>
+        <div class="box">
+            <p>image 05 <span>*</span></p>
+            <input asp-for="File5" type="file" class="input" />
+        </div>
+        <div class="box">
+            <input asp-for="IsSaved" hidden class="input" />
+        </div>
+            <div class="box">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+     
+        </form>
+    </section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

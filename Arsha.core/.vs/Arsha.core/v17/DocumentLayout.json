@@ -1,0 +1,486 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Asp.netMvc\\Arsha.core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|d:\\c#\\asp.netmvc\\arsha.core\\arsha.core\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434D22DC-EB93-47A5-8778-8C38C3AEB4DA}|Arsha.core\\Arsha.core.csproj|solutionrelative:arsha.core\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Index.cshtml",
+              "ViewState": "AQIAADgBAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResendEmailConfirmation.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\appsettings.json",
+              "RelativeDocumentMoniker": "Arsha.core\\appsettings.json",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\appsettings.json",
+              "RelativeToolTip": "Arsha.core\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T15:36:03.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Arsha.core\\appsettings.Development.json",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\appsettings.Development.json",
+              "RelativeToolTip": "Arsha.core\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T15:36:03.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Services.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Services.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Services.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Services.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Arsha.core\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Program.cs",
+              "RelativeDocumentMoniker": "Arsha.core\\Program.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Program.cs",
+              "RelativeToolTip": "Arsha.core\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:36:03.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:36:03.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:36:03.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAAHYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T15:36:03.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "D:\\c#\\Asp.netMvc\\Arsha.core\\Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "Arsha.core\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T15:36:03.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

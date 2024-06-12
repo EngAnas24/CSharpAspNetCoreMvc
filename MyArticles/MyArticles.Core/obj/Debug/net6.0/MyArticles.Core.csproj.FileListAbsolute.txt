@@ -1,0 +1,11 @@
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\bin\Debug\net6.0\MyArticles.Core.deps.json
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\bin\Debug\net6.0\MyArticles.Core.dll
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\bin\Debug\net6.0\MyArticles.Core.pdb
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.AssemblyInfoInputs.cache
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.AssemblyInfo.cs
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.csproj.CoreCompileInputs.cache
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.dll
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\refint\MyArticles.Core.dll
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\MyArticles.Core.pdb
+D:\c#\Asp.net_Web\MyArticles\MyArticles.Core\obj\Debug\net6.0\ref\MyArticles.Core.dll

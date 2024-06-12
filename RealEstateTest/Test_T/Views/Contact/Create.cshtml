@@ -1,0 +1,53 @@
+﻿@model RealEstate.Core.Contact
+
+<section class="contact">
+    <div class="con">
+        <!-- <div class="image">
+          <img src="images/contact-img.svg" alt="" />
+        </div> -->
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h3>get in touch</h3>
+
+            <input asp-for="Name" type="text"
+                   name="name"
+                   required
+                   maxlength="50"
+                   placeholder="enter your name"
+                   class="box" />
+
+
+            <input asp-for="Email" type="email"
+                   name="email"
+                   required
+                   maxlength="50"
+                   placeholder="enter your email"
+                   class="box" />
+
+            <input asp-for="Number" type="tel"
+                   name="number"
+                   required
+                   maxlength="10"
+                   max="9999999999"
+                   min="0"
+                   placeholder="enter your number"
+                   class="box" />
+
+            <textarea asp-for="Message" name="message"
+                      placeholder="enter your message"
+                      required
+                      maxlength="1000"
+                      cols="30"
+                      rows="10"
+                      class="box"></textarea>
+
+            <input type="submit" value="send message" name="send" class="btn" />
+
+        </form>
+    </div>
+</section>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

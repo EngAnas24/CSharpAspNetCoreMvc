@@ -1,0 +1,87 @@
+﻿@page
+@model IndexModel
+@inject List<RealEstate.Core.RealEstateProperty> real
+<!-- Section 1 -->
+<section class="home">
+    <div class="home-text">
+        <h1 class="headline-large home-title">
+            Your House is Waiting For You!
+        </h1>
+        <p class="body-large home-text">
+            If your're looking for a place where you can be yourself, don't
+            give up. Keep searching untill you find a place that feels like
+            home.
+        </p>
+
+            <form method="post" asp-page-handler="Search" class="search-bar">
+                <label class="search-item">
+                    <span class="label-medium label">Want to</span>
+                    <select name="searchParameters.OffertypeLiist" class="search-item-field body-medium">
+                        <option value="sale" selected>sale</option>
+                        <option value="rent">rent</option>
+                    </select>
+                    <span class="material-symbols-outlined" aria-hidden="true">real_estate_agent</span>
+                </label>
+
+                <label class="search-item" id="property">
+                    <span class="label-medium label">Property type</span>
+                    <select name="searchParameters.PropertytypeList" class="search-item-field body-medium">
+                        <option value="houses">houses</option>
+                        <option value="apartments">apartments</option>
+                        <option value="villas">villa</option>
+                    </select>
+                    <span class="material-symbols-outlined" aria-hidden="true">gite</span>
+                </label>
+
+                <label class="search-item">
+                    <span class="label-medium label">Location</span>
+                    <input type="text" name="searchParameters.propertyaddress" placeholder="Street, City, Zip..." class="search-item-field body-medium" />
+                    <span class="material-symbols-outlined" aria-hidden="true">Location_on</span>
+                </label>
+
+                <button type="submit" class="search-btn">
+                    <span class="material-symbols-outlined" aria-hidden="true">Search</span>
+                    <span class="label-medium">Search</span>
+                </button>
+            </form>
+    </div>
+    <div class="home-img">
+        <img src="images/hero.png" alt="" />
+    </div>
+</section>
+<!-- End Section 1 -->
+<!-- section 2 -->
+<section class="property">
+    <div class="center-left">
+        <h2>Latest Listings</h2>
+    </div>
+
+    <div class="property-content">
+        @foreach (var property in real.Take(3))
+        {
+            <div class="row">
+                <img src="~/uploads/@property.ImageUrl1" alt="" />
+                <h5>@property.propertyname</h5>
+                <p>@property.propertyaddress</p>
+                <div class="list">
+                    <a href="#" class="Residence-list">
+                        <i class="fas fa-bed"></i>
+                        @property.bedroomsList
+                    </a>
+                    <a href="#" class="Residence-list">
+                        <i class="fas fa-bath"></i>
+                        @property.bathroomsList
+                    </a>
+                    <a href="#" class="Residence-list">
+                        <i class="fas fa-square"></i>
+                        @property.carpetarea sqft
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="center-btn">
+        <a asp-controller="Property" asp-action="GerneralIndex"  class="btn">View All Properties</a>
+    </div>
+</section>

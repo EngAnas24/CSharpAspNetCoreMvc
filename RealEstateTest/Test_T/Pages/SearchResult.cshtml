@@ -1,0 +1,121 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@model Test_T.Pages.SearchResultModel
+@inject IAuthorizationService AuthorizationService
+
+@{
+    var authorizationResult = await AuthorizationService.AuthorizeAsync(User, "Admin");
+}
+<style>
+    .table-container {
+        margin: 0 auto;
+        width: 90%; /* تعيين عرض الجدول بنسبة 90% من عرض الشاشة */
+    }
+
+    table {
+        margin: 0 auto;
+        width: 100%; /* جعل عرض الجدول يمتلئ بالكامل */
+        direction: rtl; /* توجيه النص إلى اليمين */
+    }
+
+    .pagination-container {
+        text-align: center; /* محاذاة عناصر التحكم بالصفحات في وسط الشاشة */
+    }
+</style>
+@if (Model.SearchResults != null && Model.SearchResults.Any())
+{
+
+    <div class="table-container">
+        <table>
+            <tbody>
+                @for (var i = 0; i < Model.SearchResults.Count(); i += 3)
+                {
+                    <tr>
+                        @foreach (var property in Model.SearchResults.Skip(i).Take(3))
+                        {
+                            <td style="padding: 10px; text-align: left;">
+                                <section class="my-listings">
+                                    <div class="box-container">
+                                        <form method="post" class="box">
+                                            <input type="hidden" name="property_id" value="@property.Id" />
+                                            <div class="thumb">
+                                                <p><i class="far fa-image"></i> <span><!-- total_images --></span></p>
+                                                <img src="~/uploads/@property.ImageUrl1" alt="" />
+                                            </div>
+                                            <div class="price">
+                                                <i class="fa-solid fa-dollar-sign"></i>
+                                                <span>@property.propertyprice</span> <!-- corrected casing -->
+                                            </div>
+                                            <h3 class="name">
+                                                @property.totalfloors <!-- corrected casing -->
+                                            </h3>
+                                            <p class="address">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <span>@property.propertyaddress</span> <!-- corrected casing -->
+                                            </p>
+                                            <div class="flex-btn">
+                                                @if (authorizationResult.Succeeded)
+                                                {
+                                                    <a asp-page-handler="Edit" asp-route-id="@property.Id" class="btn">Update</a>
+                                                    <a asp-page-handler="Delete" asp-route-id="@property.Id" class="btn">Delete</a>
+                                                }
+                                            </div>
+                                            <a asp-page="./Details" asp-route-id="@property.Id" class="btn">View Property</a>
+                                        </form>
+                                    </div>
+                                </section>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+
+@if (Model.SearchResults == null || !Model.SearchResults.Any())
+{
+    <h1><center style="color: whitesmoke">@Model.Message</center></h1>
+}
+
+@if (Model.SearchResults != null && Model.SearchResults.Any())
+{
+    var itemsPerPage = 12;
+    var currentPage = (int)Math.Ceiling((double)Model.SearchResults.Max(p => p.Id) / itemsPerPage);
+    var totalPages = (int)Math.Ceiling((double)Model.SearchResults.Count() / itemsPerPage);
+
+    var isFirstPage = currentPage == 1;
+    var isLastPage = Model.SearchResults.Count() < itemsPerPage;
+
+    <div class="pagination-container p-3 mt-3 mt-md-5">
+        <div class="pagination">
+            @if (!isFirstPage)
+            {
+                var previousPage = currentPage - 1;
+                <a asp-page="./SearchResult" asp-route-id="@previousPage" class="nav-link text-white">
+                    <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">Previous</button>
+                </a>
+            }
+
+            @for (var i = 1; i <= totalPages; i++)
+            {
+                <a asp-page="./SearchResult" asp-route-id="@i" class="nav-link text-white">
+                    <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">@i</button>
+                </a>
+            }
+
+            @if (!isLastPage)
+            {
+                var nextPage = currentPage + 1;
+                <a asp-page="./SearchResult" asp-route-id="@nextPage" class="nav-link text-white">
+                    <button class="btn btn-primary mr-2 mb-2 mb-md-0 btn-transparent text-white">Next</button>
+                </a>
+            }
+        </div>
+    </div>
+}

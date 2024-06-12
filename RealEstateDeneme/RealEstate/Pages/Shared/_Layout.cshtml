@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Real Estate Website" />
+    <title>Emlak Website</title>
+    <!-- Main Template Css File -->
+    <link rel="stylesheet" href="~/css/emlak.css" />
+
+    <!-- Box icons Link -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet" />
+
+    <!--  -->
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--aos animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Start HEader  -->
+    <header>
+        <a href="#" class="logo">
+            <img src="~/images/logo.png" />
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="buy.html">Buying</a></li>
+            <li><a href="sell.html">Selling</a></li>
+            <li><a href="rent.html">Renting</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+
+        </ul>
+
+        <div class="h-btn">
+            <!-- <a href="login.html" class="h-btn1">Login</a> -->
+            <partial name="_LoginPartial" />
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <!-- End HEader -->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Contact Us + Footer-->
+    <footer class="contact" data-aos="zoom-in-up">
+        <div class="contact-content">
+            <img src="~/images/logo.png" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                perspiciatis.
+            </p>
+        </div>
+        <div class="contact-content">
+            <h4>Quick Link</h4>
+            <li><a href="#">Home</a></li>
+            <li><a href="buy.html">Buying</a></li>
+            <li><a href="sell.html">Selling</a></li>
+            <li><a href="rent.html">Renting</a></li>
+        </div>
+
+        <div class="contact-content">
+            <h4>Support</h4>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li><a href="#Privacy">Privacy Policy</a></li>
+            <li><a href="terms&conditions">Terms & Conditions</a></li>
+        </div>
+
+        <div class="contact-content">
+            <h4>Get in touch</h4>
+            <li><a href="mailto">hello@emlak.com</a></li>
+
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 250,
+            duration: 700,
+        });
+    </script>
+    <!-- Script js -->
+    <script src="~/js/script.js"></script>
+
+    <!-- Script js -->
+    <script src="js/signin.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

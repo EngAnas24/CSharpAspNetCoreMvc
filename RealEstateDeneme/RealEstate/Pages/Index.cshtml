@@ -1,0 +1,143 @@
+﻿@page
+@model IndexModel
+<!-- Home Section -->
+<main>
+    <article>
+        <!-- Section 1 -->
+        <section class="home" data-aos="zoom-in-up">
+            <div class="home-text">
+                <h1 class="headline-large home-title">
+                    Your House is Waiting For You!
+                </h1>
+                <p class="body-large home-text">
+                    If your're looking for a place where you can be yourself, don't
+                    give up. Keep searching untill you find a place that feels like
+                    home.
+                </p>
+
+                <form action="./" method="get" class="search-bar">
+                    <label class="search-item">
+                        <span class="label-medium label">Want to</span>
+                        <select name="want-to" class="search-item-field body-medium">
+                            <option value="buy" selected>Buy</option>
+                            <option value="sell">Sell</option>
+                            <option value="rent">Rent</option>
+                        </select>
+
+                        <span class="material-symbols-outlined" aria-hidden="true">
+                            real_estate_agent
+                        </span>
+                    </label>
+
+                    <label class="search-item" id="property">
+                        <span class="label-medium label">Property type</span>
+                        <select name="property-type"
+                                class="search-item-field body-medium">
+                            <option value="any" selected>Any</option>
+                            <option value="houses">Houses</option>
+                            <option value="apartmants">Apartmants</option>
+                            <option value="villa">Villa</option>
+                            <option value="cars">Cars</option>
+                        </select>
+
+                        <span class="material-symbols-outlined" aria-hidden="true">gite</span>
+                    </label>
+
+                    <label class="search-item">
+                        <span class="label-medium label">Location</span>
+
+                        <input type="text"
+                               name="location"
+                               placeholder="Street, City, Zip..."
+                               class="search-item-field body-medium" />
+
+                        <span class="material-symbols-outlined" aria-hidden="true">Location_on</span>
+                    </label>
+
+                    <button type="submit" class="search-btn">
+                        <span class="material-symbols-outlined" aria-hidden="true">Search</span>
+                        <span class="label-medium">Search</span>
+                    </button>
+                </form>
+            </div>
+            <div class="home-img" data-aos="zoom-in-up">
+                <img src="~/images/hero.png" alt="" />
+            </div>
+        </section>
+        <!-- End Section 1 -->
+        <!-- section 2 -->
+        <section class="property" data-aos="zoom-in-up">
+            <div class="center-left">
+                <h2>Latest Listing</h2>
+            </div>
+
+            <div class="property-content">
+                <div class="row">
+                    <img src="~/images/p1.png" alt="" />
+                    <h5>Aliva Priva Jalvin</h5>
+                    <p>1090 Pin oak Drive, Clinton, USA</p>
+                    <div class="list">
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bed"></i>
+                            4 Bed
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bath"></i>
+                            2 Bath
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-square"></i>
+                            1203 sqft
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="~/images/p2.png" alt="" />
+                    <h5>Aliva Priva Jalvin</h5>
+                    <p>1090 Pin oak Drive, Clinton, USA</p>
+                    <div class="list">
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bed"></i>
+                            4 Bed
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bath"></i>
+                            2 Bath
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-square"></i>
+                            1203 sqft
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="~/images/p3.png" alt="" />
+                    <h5>Aliva Priva Jalvin</h5>
+                    <p>1090 Pin oak Drive, Clinton, USA</p>
+                    <div class="list">
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bed"></i>
+                            4 Bed
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-bath"></i>
+                            2 Bath
+                        </a>
+                        <a href="#" class="Residence-list">
+                            <i class="fas fa-square"></i>
+                            1203 sqft
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-btn">
+                <a href="#" class="btn">View All Properties</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+    </article>
+</main>

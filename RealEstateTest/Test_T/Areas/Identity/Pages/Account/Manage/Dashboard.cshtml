@@ -1,0 +1,44 @@
+﻿@page
+@model DashboardModel
+@inject RealEstate.Data.IDataHelper<RealEstate.Core.RealEstateProperty> real
+@inject IEnumerable<RealEstate.Core.SavedProp> savedprop
+@inject RealEstate.Data.SavedPropEntity test
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    var getuserid = UserManager.GetUserId(User);
+}
+<!-- dashboard section start -->
+<section class="dashboard">
+    <h1 class="heading">dashboard</h1>
+    <div class="box-container">
+        <div class="box">
+            <h3>welcome!</h3>
+            <p><!--user a-->@Model.User.UserName</p>
+            <a asp-area="Identity" asp-page="/Account/Manage/UpdateAccount" update.html" class="btn">update profile</a>
+        </div>
+
+        <div class="box">
+            <h3>filter search</h3>
+            <p>search your dream property</p>
+            <a asp-page="/Index" class="btn">search now</a>
+        </div>
+
+        <div class="box">
+            <h3><!--total prperties-->@real.PostsCounts(Model.User.Id)</h3>
+            <p>properties listed</p>
+            <a href="/Property/MyPosts" class="btn">view all listings</a>
+        </div>
+
+
+
+        <div class="box">
+            <h3><!--total saved properties-->@test.SavedCount(getuserid)</h3>
+            <p>properties saved</p>
+            <a asp-action="SavedProperty" asp-controller="Property" class="btn">view saved properties</a>
+        </div>
+
+    </div>
+</section>
+<!-- dashboard section ends -->
